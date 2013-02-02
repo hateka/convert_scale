@@ -10,6 +10,10 @@ public $resized = array();
 
 function __construct($diname,$ratio)
 {
+  if(!function_exists('imagecreatetruecolor')){
+    exit('You need GD library');
+  }
+
   $this->dirname = $diname;
   $this->reduction_ratio = $ratio;
 }
