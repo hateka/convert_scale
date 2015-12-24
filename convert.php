@@ -1,6 +1,6 @@
 <?php
 
-require_once('./imagesize.php');
+require_once('./ImageResize.php');
 
 $imgsdir = 'imgs/';
 $scale = 300;
