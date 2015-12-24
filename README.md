@@ -1,4 +1,4 @@
-Resize image fire
+Resize image file 
 =================
 This script is remove unnecessary place of image.
 You have to write setting in convert.php,dir path and scale value.
